@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    font-family: font-family: "Open Sans", sans-serif;
+}
+
+body,html {
+    width: 100vw;
+    height: 100vh;
+}
+
+form {
+    background-color: #f1efec;
+    width: 20%;
+    margin: auto;
+    margin-top: 70px;
+    padding: 7px;
+    border: 2px black;
+    border-radius: 20PX;
+    box-shadow: 10px 19px 20px rgb(66, 53, 53);
+}
+
+div{
+    padding-bottom: 3px;
+    text-align: center;
+}
+button{
+    margin-top: 5px;
+    margin-left: 25%;
+    padding: 3px;
+    color:white ;
+    background-color: rgb(194, 189, 199);
+    border:none ;
+    border-radius: 3px;
+    width:50% ;
+    /* height: ; */
+}
+button:hover{
+    background-color:rgb(62, 16, 107) ;
+    border:rgb(39, 37, 37) ;
+}
